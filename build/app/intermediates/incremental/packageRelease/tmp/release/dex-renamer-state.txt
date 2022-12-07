@@ -1,0 +1,4 @@
+#Mon Dec 05 18:49:18 CST 2022
+base.0=/Users/youssef/StudioProjects/delivery_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

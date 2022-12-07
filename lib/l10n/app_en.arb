@@ -1,0 +1,108 @@
+{
+  "@language":{
+    "description": "The current Language"
+  },
+  "live_longer": "Live longer \nwith healthy food ",
+  "@live_longer":{
+    "description": "The live_longer btn"
+  },
+  "lorem": "",
+  "@lorem":{
+    "description": "The lorem txt"
+  },
+  "choose_language": "Choose your Language ",
+  "@choose_language":{
+    "description": "The choose_language txt"
+  },
+  "dont_have_account": "Don’t have an account?",
+  "@dont_have_account":{
+    "description": "The don't_have_account btn"
+  },
+  "take_a_tour": "Take a tour",
+  "@take_a_tour":{
+    "description": "The Take a tour btn"
+  },
+  "login": "Login",
+  "@login":{
+    "description": "The login btn"
+  },
+  "welcome_back": "Welcome back",
+  "@welcome_back":{
+    "description": "The welcome_back txt"
+  },
+  "first_name": "First Name",
+  "@first_name":{
+    "description": "The first_name txt"
+  },
+  "last_name": "Last Name",
+  "@last_name":{
+    "description": "The last_name txt"
+  },
+  "password": "Password",
+  "@password":{
+    "description": "The password txt"
+  },
+  "i_forget_my_password": "I forget my password",
+  "@i_forget_my_password":{
+    "description": "The i_forget_my_password btn"
+  },
+  "or": "Or",
+  "@or":{
+    "description": "The or btn"
+  },
+  "email": "Email",
+  "@email":{
+    "description": "The email txt"
+  },
+  "phone": "Mobile number",
+  "re_password": "Verify Password",
+  "@re_password":{
+    "description": "The Verify txt"
+  },
+  "sign_up": "Sign up",
+  "@sign_up":{
+    "description": "The sign_up txt"
+  },
+  "already_have_account": "Already have an account ?",
+  "add_other_location": "New Location",
+  "address_name": "Place name",
+  "address_details": "Address details",
+  "building": "Building",
+  "floor": "Floor",
+  "more_details": "More Details",
+  "select_your_location": "Select your location",
+  "confirm": "Confirm",
+  "all_new_orders": "All Orders",
+  "in_progress": "In progress",
+  "ready": "Ready",
+  "delivered": "Delivered",
+  "canceled": "Canceled",
+  "home": "Home",
+  "profile": "Profile",
+  "wallet": "Wallet",
+  "language": "Language",
+  "selected_language": "English",
+  "privacy": "Privacy",
+  "logout": "Logout",
+  "profile_picture": "Profile Picture",
+  "full_name": "Full Name",
+  "e_mail": "E-mail",
+
+  "order_summary": "Order summary",
+  "order_id": "Order id",
+  "delivery_address": "Delivery address",
+  "customer_area": "Customer area",
+  "order_status": "Order status",
+  "customer_info": "Customer info",
+  "customer_name": "Customer name",
+  "customer_number": "Customer number",
+  "order_info": "Order info",
+  "meal_details": "Meal details",
+  "size": "Size",
+  "less_details": "Less details",
+  "logout_text" : "Are you sure you want to Logout ?",
+  "yes" : "Yes",
+  "no" : "No",
+  "wrong_auth" : "User name or Password is incorrect"
+  
+}

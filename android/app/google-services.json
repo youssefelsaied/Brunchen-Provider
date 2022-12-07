@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "1098440613337",
+    "project_id": "heromeals-21de6",
+    "storage_bucket": "heromeals-21de6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098440613337:android:d81783081d86af9cfb8dc8",
+        "android_client_info": {
+          "package_name": "com.rmztech.delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAdfDg09H9jDskcrMDHAVgypolu3aNuJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1098440613337-q0gs2bhaqkd7kiqr4oek5m3mh90jqdmt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rmztech.heroMeals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098440613337:android:86ba111e2a4bd157fb8dc8",
+        "android_client_info": {
+          "package_name": "com.rmztech.hero_meals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098440613337-lj0q7ti4t31iv0gqfd513lfiab3mq75m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmztech.hero_meals",
+            "certificate_hash": "acbf39e8ec4ea9682d1bb62ffcc9a5d548d0c83d"
+          }
+        },
+        {
+          "client_id": "1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAdfDg09H9jDskcrMDHAVgypolu3aNuJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1098440613337-q0gs2bhaqkd7kiqr4oek5m3mh90jqdmt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rmztech.heroMeals"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
