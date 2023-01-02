@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/d9eb79f2b61fd35766752859f8ff5d8c/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
@@ -20,6 +20,25 @@
                         "endLines": "7,8,9,10,80,156,160,404,421,429",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "339,399,451,496,5108,11179,11376,22576,23690,24083"
+                    }
+                },
+                {
+                    "source": "/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,816",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,980"
+                    },
+                    "to": {
+                        "startLines": "128,133",
+                        "startColumns": "4,4",
+                        "startOffsets": "9403,9700",
+                        "endLines": "132,135",
+                        "endColumns": "12,12",
+                        "endOffsets": "9695,9864"
                     }
                 },
                 {
@@ -78,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "/Users/youssef/StudioProjects/delivery_app/build/app/generated/res/google-services/release/values/values.xml",
+                    "source": "/Users/youssef/StudioProjects/brunchen_provider/build/app/generated/res/google-services/release/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -92,25 +111,6 @@
                         "startOffsets": "8513,8740,8823,8927,9037,9157,9256",
                         "endColumns": "144,82,103,109,119,98,75",
                         "endOffsets": "8653,8818,8922,9032,9152,9251,9327"
-                    }
-                },
-                {
-                    "source": "/Users/youssef/StudioProjects/delivery_app/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,816",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,980"
-                    },
-                    "to": {
-                        "startLines": "128,133",
-                        "startColumns": "4,4",
-                        "startOffsets": "9403,9700",
-                        "endLines": "132,135",
-                        "endColumns": "12,12",
-                        "endOffsets": "9695,9864"
                     }
                 },
                 {

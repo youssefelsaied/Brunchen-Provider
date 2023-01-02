@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/youssef/StudioProjects/delivery_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/youssef/StudioProjects/delivery_app/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/youssef/StudioProjects/brunchen_provider/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/youssef/StudioProjects/brunchen_provider/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:shared_preferences_android::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/shared_preferences_android/.transforms/9a59c50e05014376454c2adf4aad1c37/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:shared_preferences_android::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/shared_preferences_android/.transforms/8edb1e86788845dca6017e7df95390e4/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/shared_preferences_android/.transforms/9a59c50e05014376454c2adf4aad1c37/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/shared_preferences_android/.transforms/8edb1e86788845dca6017e7df95390e4/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:firebase_messaging::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/.transforms/5fb25b5e0b972fcf98d80e1d6965c1b4/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:firebase_messaging::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/.transforms/c1fba3ec0759b35f9b5bae3ad68d19a9/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebasemessaging:firebase_messaging:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/.transforms/5fb25b5e0b972fcf98d80e1d6965c1b4/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/.transforms/c1fba3ec0759b35f9b5bae3ad68d19a9/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:firebase_core::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/firebase_core/.transforms/0b5dbd036fd314dcbca50b108d07a30e/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:firebase_core::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/.transforms/3b15b82428e025576ffd56117781bed5/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/firebase_core/.transforms/0b5dbd036fd314dcbca50b108d07a30e/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/.transforms/3b15b82428e025576ffd56117781bed5/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/flutter_plugin_android_lifecycle/.transforms/97583d610bb9bb6348b7d754056f3f25/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/flutter_plugin_android_lifecycle/.transforms/df01c742a230fada4d32693b6d5a2723/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/flutter_plugin_android_lifecycle/.transforms/97583d610bb9bb6348b7d754056f3f25/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/flutter_plugin_android_lifecycle/.transforms/df01c742a230fada4d32693b6d5a2723/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:sqflite::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/sqflite/.transforms/8ef1aa03e16d889a8941e9f3228475cc/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:sqflite::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/sqflite/.transforms/b4e4871a86c0543278dd5beea1ae6f9e/transformed/out/jars/classes.jar"
       resolved="com.tekartik.sqflite:sqflite:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/sqflite/.transforms/8ef1aa03e16d889a8941e9f3228475cc/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/sqflite/.transforms/b4e4871a86c0543278dd5beea1ae6f9e/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:url_launcher_android::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/.transforms/3abbbfa2fff6d34846bb2f0938e1298b/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:url_launcher_android::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/.transforms/2c6adf3ad0275d3f349d41f0c4b217f8/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/.transforms/3abbbfa2fff6d34846bb2f0938e1298b/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/.transforms/2c6adf3ad0275d3f349d41f0c4b217f8/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:path_provider_android::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/path_provider_android/.transforms/7e4e70cf98d51fac4882b0ebb655bff7/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:path_provider_android::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/path_provider_android/.transforms/ed8420c8cb9014244151e545c317a3e9/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/path_provider_android/.transforms/7e4e70cf98d51fac4882b0ebb655bff7/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/path_provider_android/.transforms/ed8420c8cb9014244151e545c317a3e9/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/youssef/StudioProjects/delivery_app/android@@:google_maps_flutter_android::release"
-      jars="/Users/youssef/StudioProjects/delivery_app/build/google_maps_flutter_android/.transforms/198001d841a4d439978f697e05fe0470/transformed/out/jars/classes.jar"
+      name="/Users/youssef/StudioProjects/brunchen_provider/android@@:google_maps_flutter_android::release"
+      jars="/Users/youssef/StudioProjects/brunchen_provider/build/google_maps_flutter_android/.transforms/14810027019176b1649660044080aed0/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.googlemaps:google_maps_flutter_android:unspecified"
-      folder="/Users/youssef/StudioProjects/delivery_app/build/google_maps_flutter_android/.transforms/198001d841a4d439978f697e05fe0470/transformed/out"
+      folder="/Users/youssef/StudioProjects/brunchen_provider/build/google_maps_flutter_android/.transforms/14810027019176b1649660044080aed0/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

@@ -1,27 +1,27 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.rmztech.delivery_app"
+3    package="com.rmztech.brunchenProvider"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="20"
-8-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml
+8-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml
+9-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-11-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-64
+11-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+11-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-64
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-12-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+12-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+12-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
-13-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-13-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+13-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+13-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
 14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-14-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
-14-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+14-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+14-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
 15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 15-->[com.google.firebase:firebase-iid:21.1.0] /Users/youssef/.gradle/caches/transforms-3/f1b485581d50d602b77423f979ac146e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
 15-->[com.google.firebase:firebase-iid:21.1.0] /Users/youssef/.gradle/caches/transforms-3/f1b485581d50d602b77423f979ac146e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
@@ -43,27 +43,27 @@
 25    </queries>
 26
 27    <application
-27-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:3:4-40:19
+27-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:3:4-40:19
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.6.0] /Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 29        android:icon="@mipmap/ic_launcher"
-29-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:5:9-43
+29-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:5:9-43
 30        android:label="delivery_app" >
-30-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:4:9-37
+30-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:4:9-37
 31        <activity
-31-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:6:9-34:20
+31-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:6:9-34:20
 32            android:name="com.example.delivery_app.MainActivity"
-32-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:7:13-41
+32-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:7:13-41
 33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-33-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:10:13-163
+33-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:10:13-163
 34            android:hardwareAccelerated="true"
-34-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:11:13-47
+34-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:11:13-47
 35            android:launchMode="singleTop"
-35-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:8:13-43
+35-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:8:13-43
 36            android:theme="@style/LaunchTheme"
-36-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:9:13-47
+36-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:9:13-47
 37            android:windowSoftInputMode="adjustResize" >
-37-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:12:13-55
+37-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:12:13-55
 38
 39            <!--
 40                 Specifies an Android theme to apply to this Activity as soon as
@@ -72,11 +72,11 @@
 43                 to determine the Window background behind the Flutter UI.
 44            -->
 45            <meta-data
-45-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:17:13-20:17
+45-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:17:13-20:17
 46                android:name="io.flutter.embedding.android.NormalTheme"
-46-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:18:15-70
+46-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:18:15-70
 47                android:resource="@style/NormalTheme" />
-47-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:19:15-52
+47-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:19:15-52
 48            <!--
 49                 Displays an Android View that continues showing the launch screen
 50                 Drawable until Flutter paints its first frame, then this splash
@@ -85,21 +85,21 @@
 53                 Flutter's first frame.
 54            -->
 55            <meta-data
-55-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:26:13-29:17
+55-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:26:13-29:17
 56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-56-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:27:15-79
+56-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:27:15-79
 57                android:resource="@drawable/launch_background" />
-57-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:28:15-61
+57-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:28:15-61
 58
 59            <intent-filter>
-59-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:30:13-33:29
+59-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:30:13-33:29
 60                <action android:name="android.intent.action.MAIN" />
-60-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:31:17-68
-60-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:31:25-66
+60-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:31:17-68
+60-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:31:25-66
 61
 62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:32:17-76
-62-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:32:27-74
+62-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:32:17-76
+62-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:32:27-74
 63            </intent-filter>
 64        </activity>
 65        <!--
@@ -107,70 +107,70 @@
 67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 68        -->
 69        <meta-data
-69-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:37:9-39:33
+69-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:37:9-39:33
 70            android:name="flutterEmbedding"
-70-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:38:13-44
+70-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:38:13-44
 71            android:value="2" />
-71-->/Users/youssef/StudioProjects/delivery_app/android/app/src/main/AndroidManifest.xml:39:13-30
+71-->/Users/youssef/StudioProjects/brunchen_provider/android/app/src/main/AndroidManifest.xml:39:13-30
 72
 73        <service
-73-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+73-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
 74            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-74-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+74-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
 75            android:exported="false"
-75-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+75-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 76            android:permission="android.permission.BIND_JOB_SERVICE" />
-76-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+76-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
 77        <service
-77-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+77-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
 78            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-78-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+78-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
 79            android:exported="false" >
-79-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+79-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
 80            <intent-filter>
-80-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+80-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
 81                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-81-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
-81-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+81-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+81-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
 82            </intent-filter>
 83        </service>
 84
 85        <receiver
-85-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+85-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
 86            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-86-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+86-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
 87            android:exported="true"
-87-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+87-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
 88            android:permission="com.google.android.c2dm.permission.SEND" >
-88-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+88-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
 89            <intent-filter>
-89-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+89-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
 90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-90-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
-90-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+90-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+90-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
 91            </intent-filter>
 92        </receiver>
 93
 94        <service
-94-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+94-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
 95            android:name="com.google.firebase.components.ComponentDiscoveryService"
-95-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+95-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
 96            android:directBootAware="true"
 96-->[com.google.firebase:firebase-common:20.2.0] /Users/youssef/.gradle/caches/transforms-3/78411e898b8144f31e2de09ad11a6583/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
 97            android:exported="false" >
 97-->[com.google.firebase:firebase-iid:21.1.0] /Users/youssef/.gradle/caches/transforms-3/f1b485581d50d602b77423f979ac146e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
 98            <meta-data
-98-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+98-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
 99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-99-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+99-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
 100                android:value="com.google.firebase.components.ComponentRegistrar" />
-100-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+100-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
 101            <meta-data
-101-->[:firebase_core] /Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+101-->[:firebase_core] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-102-->[:firebase_core] /Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+102-->[:firebase_core] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 103                android:value="com.google.firebase.components.ComponentRegistrar" />
-103-->[:firebase_core] /Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+103-->[:firebase_core] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 104            <meta-data
 104-->[com.google.firebase:firebase-iid:21.1.0] /Users/youssef/.gradle/caches/transforms-3/f1b485581d50d602b77423f979ac146e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
 105                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
@@ -198,24 +198,24 @@
 116        </service>
 117
 118        <provider
-118-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+118-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
 119            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-119-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
-120            android:authorities="com.rmztech.delivery_app.flutterfirebasemessaginginitprovider"
-120-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+119-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+120            android:authorities="com.rmztech.brunchenProvider.flutterfirebasemessaginginitprovider"
+120-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
 121            android:exported="false"
-121-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+121-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
 122            android:initOrder="99" />
-122-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+122-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
 123
 124        <activity
-124-->[:url_launcher_android] /Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+124-->[:url_launcher_android] /Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
 125            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-125-->[:url_launcher_android] /Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+125-->[:url_launcher_android] /Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
 126            android:exported="false"
-126-->[:url_launcher_android] /Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+126-->[:url_launcher_android] /Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
 127            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-127-->[:url_launcher_android] /Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+127-->[:url_launcher_android] /Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
 128
 129        <uses-library
 129-->[androidx.window:window:1.0.0-beta04] /Users/youssef/.gradle/caches/transforms-3/d9eb79f2b61fd35766752859f8ff5d8c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
@@ -239,10 +239,10 @@
 139            android:permission="com.google.android.c2dm.permission.SEND" >
 139-->[com.google.firebase:firebase-messaging:23.1.0] /Users/youssef/.gradle/caches/transforms-3/1d8e96bf226b0a549d8b83254ee7f8bf/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:34:13-73
 140            <intent-filter>
-140-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+140-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
 141                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-141-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
-141-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+141-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+141-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
 142            </intent-filter>
 143        </receiver>
 144        <!--
@@ -258,10 +258,10 @@
 151            android:exported="false" >
 151-->[com.google.firebase:firebase-messaging:23.1.0] /Users/youssef/.gradle/caches/transforms-3/1d8e96bf226b0a549d8b83254ee7f8bf/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:47:13-37
 152            <intent-filter android:priority="-500" >
-152-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+152-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
 153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-153-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
-153-->[:firebase_messaging] /Users/youssef/StudioProjects/delivery_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+153-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+153-->[:firebase_messaging] /Users/youssef/StudioProjects/brunchen_provider/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
 154            </intent-filter>
 155        </service>
 156
@@ -269,7 +269,7 @@
 157-->[com.google.firebase:firebase-common:20.2.0] /Users/youssef/.gradle/caches/transforms-3/78411e898b8144f31e2de09ad11a6583/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
 158            android:name="com.google.firebase.provider.FirebaseInitProvider"
 158-->[com.google.firebase:firebase-common:20.2.0] /Users/youssef/.gradle/caches/transforms-3/78411e898b8144f31e2de09ad11a6583/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
-159            android:authorities="com.rmztech.delivery_app.firebaseinitprovider"
+159            android:authorities="com.rmztech.brunchenProvider.firebaseinitprovider"
 159-->[com.google.firebase:firebase-common:20.2.0] /Users/youssef/.gradle/caches/transforms-3/78411e898b8144f31e2de09ad11a6583/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
 160            android:directBootAware="true"
 160-->[com.google.firebase:firebase-common:20.2.0] /Users/youssef/.gradle/caches/transforms-3/78411e898b8144f31e2de09ad11a6583/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release/values-ka/values-ka.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-ka/values-ka.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeReleaseResources/merged.dir/values-ka/values-ka.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeReleaseResources/merged.dir/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-ka/values-ka.xml",

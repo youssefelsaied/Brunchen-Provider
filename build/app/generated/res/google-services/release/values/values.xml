@@ -3,7 +3,7 @@
     <string name="default_web_client_id" translatable="false">1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">1098440613337</string>
     <string name="google_api_key" translatable="false">AIzaSyDAdfDg09H9jDskcrMDHAVgypolu3aNuJY</string>
-    <string name="google_app_id" translatable="false">1:1098440613337:android:d81783081d86af9cfb8dc8</string>
+    <string name="google_app_id" translatable="false">1:1098440613337:android:39cd2ce58ae4ab96fb8dc8</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDAdfDg09H9jDskcrMDHAVgypolu3aNuJY</string>
     <string name="google_storage_bucket" translatable="false">heromeals-21de6.appspot.com</string>
     <string name="project_id" translatable="false">heromeals-21de6</string>

@@ -20,7 +20,8 @@ class Auth with ChangeNotifier {
   final Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
   us.UserClass? theUser;
   List<OrderElement> todayOrders = [];
-  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
+  List<OrderElement> pastOrders = [];
+  // final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
 
   bool get isAuth {
     // print(theUser!.token != null);
@@ -28,7 +29,7 @@ class Auth with ChangeNotifier {
   }
 
   Future<bool> signIn(String emailOrPhone, String password) async {
-    final deviceToken = await _firebaseMessaging.getToken();
+    // final deviceToken = await _firebaseMessaging.getToken();
     var url = Uri.https(
         'ksa.brunchenapp.com', '/api/dashboard/login', {'q': '{https}'});
     try {
@@ -39,7 +40,7 @@ class Auth with ChangeNotifier {
           },
           body: json.encode({
             "username": emailOrPhone,
-            "device_token": deviceToken.toString(),
+            "device_token": 'deviceToken.toString()',
             "password": password,
           }));
 
@@ -82,8 +83,42 @@ class Auth with ChangeNotifier {
     }
   }
 
+  Future<bool> changeOrderStatus(int orderId, int status) async {
+    // final deviceToken = await _firebaseMessaging.getToken();
+    var url = Uri.https(
+        'ksa.brunchenapp.com', '/api/resturant/update/order', {'q': '{https}'});
+    try {
+      final response = await http.post(url,
+          headers: {
+            'Content-type': 'application/json',
+            'Accept': 'application/json',
+            'Authorization': 'Bearer ${theUser!.token}',
+          },
+          body: json.encode({
+            "id": orderId,
+            "status": status,
+          }));
+
+      // return true;
+      final responseData = json.decode(response.body);
+      print(responseData);
+      if (responseData['errors'] != null) {
+        throw HttpException(responseData['message']);
+      }
+      if (responseData['success']) {
+        await fetchTodayOrders();
+        return true;
+      } else {
+        return false;
+      }
+    } catch (e) {
+      // print("e is $e");
+      rethrow;
+    }
+  }
+
   Future<bool> fetchTodayOrders() async {
-    final deviceToken = await _firebaseMessaging.getToken();
+    // final deviceToken = await _firebaseMessaging.getToken();
     var url = Uri.https('ksa.brunchenapp.com', '/api/orders', {'q': '{https}'});
     try {
       final response = await http.get(
@@ -105,6 +140,42 @@ class Auth with ChangeNotifier {
         return false;
       }
       todayOrders = Order.fromJson(responseData).data!.orders;
+      notifyListeners();
+      if (responseData['success']) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (e) {
+      // print("e is $e");
+      rethrow;
+    }
+  }
+
+  Future<bool> fetchPastOrders() async {
+    // final deviceToken = await _firebaseMessaging.getToken();
+    var url = Uri.https('ksa.brunchenapp.com', '/api/resturant/history/orders',
+        {'q': '{https}'});
+    try {
+      final response = await http.get(
+        url,
+        headers: {
+          'Content-type': 'application/json',
+          'Accept': 'application/json',
+          'Authorization': 'Bearer ${theUser!.token}',
+        },
+      );
+
+      // return true;
+      final responseData = json.decode(response.body);
+      print(responseData);
+      if (responseData['errors'] != null) {
+        throw HttpException(responseData['message']);
+      }
+      if (responseData['success'] == false) {
+        return false;
+      }
+      pastOrders = Order.fromJson(responseData).data!.orders;
       notifyListeners();
       if (responseData['success']) {
         return true;

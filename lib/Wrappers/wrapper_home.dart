@@ -25,10 +25,12 @@ class _WrapperHomeState extends State<WrapperHome> {
     final auth = Provider.of<Auth>(context, listen: false);
     // final order = Provider.of<OrderProvider>(context, listen: false);
     var getOrders = auth.fetchTodayOrders();
+    var getPastOrders = auth.fetchPastOrders();
     // var getAddresses = auth.getAddresses();
     try {
       List responses = await Future.wait([
         getOrders,
+        getPastOrders
         // getAddresses,
       ]);
       return responses;

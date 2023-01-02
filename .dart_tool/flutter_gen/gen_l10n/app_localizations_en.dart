@@ -89,6 +89,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ready => 'Ready';
 
   @override
+  String get on_the_way => 'ON THE WAY';
+
+  @override
   String get delivered => 'Delivered';
 
   @override
@@ -171,4 +174,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get wrong_auth => 'User name or Password is incorrect';
+
+  @override
+  String get date => 'Date';
+
+  @override
+  String get delivery_time => 'Delivery Time';
+
+  @override
+  String get delivery_details => 'Delivery Details';
+
+  @override
+  String get order_history => 'Order History';
+
+  @override
+  String get no_orders => 'No Orders yet';
+
+  @override
+  String get no_delivery => 'No Delivery is assigned to this order yet';
+
+  @override
+  String get change_statues => 'Are you sure you want to change the order status ?';
 }

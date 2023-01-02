@@ -77,16 +77,34 @@ class _MainScreenState extends State<MainScreen> {
                 child: MediaQuery.removePadding(
                   removeTop: true,
                   context: context,
-                  child: ListView.builder(
-                    physics: AlwaysScrollableScrollPhysics(),
-                    shrinkWrap: true,
-                    itemBuilder: (context, index) {
-                      return OrderCard(
-                        order: auth.todayOrders[index],
-                      );
-                    },
-                    itemCount: auth.todayOrders.length,
-                  ),
+                  child: auth.todayOrders.isEmpty
+                      ? ListView(
+                          children: [
+                            SizedBox(
+                              height: height * .38,
+                            ),
+                            Center(
+                              child: AutoSizeText(
+                                AppLocalizations.of(context)!.no_orders,
+                              ),
+                            ),
+                          ],
+                        )
+                      : ListView.builder(
+                          physics: AlwaysScrollableScrollPhysics(),
+                          shrinkWrap: true,
+                          itemBuilder: (context, index) {
+                            return Column(
+                              children: [
+                                OrderCard(
+                                  order: auth.todayOrders[index],
+                                ),
+                                const Divider()
+                              ],
+                            );
+                          },
+                          itemCount: auth.todayOrders.length,
+                        ),
                 ),
               ),
             ),

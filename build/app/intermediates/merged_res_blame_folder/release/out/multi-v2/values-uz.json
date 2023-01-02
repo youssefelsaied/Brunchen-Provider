@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/7b33c7b67b2e9c4c5baf47222dcaf480/transformed/jetified-play-services-basement-18.1.0/res/values-uz/values.xml",

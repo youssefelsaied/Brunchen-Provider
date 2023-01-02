@@ -86,7 +86,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get in_progress => 'جاري التحضير';
 
   @override
-  String get ready => 'الطلبات الجاهزة';
+  String get ready => 'الطلب جاهز';
+
+  @override
+  String get on_the_way => 'فى الطريق';
 
   @override
   String get delivered => 'تم التوصيل';
@@ -171,4 +174,25 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get wrong_auth => 'اسم المستخدم أو كلمة المرور غير صحيحة';
+
+  @override
+  String get date => 'التاريخ';
+
+  @override
+  String get delivery_time => 'موعد التسليم';
+
+  @override
+  String get delivery_details => 'تفاصيل التسليم';
+
+  @override
+  String get order_history => 'سجل الطلبات';
+
+  @override
+  String get no_orders => 'لا توجد طلبات حتى الآن';
+
+  @override
+  String get no_delivery => 'لم يتم تعيين مسلم لهذا الطلب حتى الآن';
+
+  @override
+  String get change_statues => 'هل أنت متأكد أنك تريد تغيير حالة الطلب؟';
 }

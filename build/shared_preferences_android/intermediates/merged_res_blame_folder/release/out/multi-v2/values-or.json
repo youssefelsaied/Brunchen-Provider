@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/shared_preferences_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/shared_preferences_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-or/values-or.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/shared_preferences_android/intermediates/merged_res/release/values-or/values-or.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/shared_preferences_android/intermediates/merged_res/release/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-or/values-or.xml",

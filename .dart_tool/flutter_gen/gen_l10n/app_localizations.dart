@@ -261,6 +261,12 @@ abstract class AppLocalizations {
   /// **'Ready'**
   String get ready;
 
+  /// No description provided for @on_the_way.
+  ///
+  /// In en, this message translates to:
+  /// **'ON THE WAY'**
+  String get on_the_way;
+
   /// No description provided for @delivered.
   ///
   /// In en, this message translates to:
@@ -428,6 +434,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'User name or Password is incorrect'**
   String get wrong_auth;
+
+  /// No description provided for @date.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get date;
+
+  /// No description provided for @delivery_time.
+  ///
+  /// In en, this message translates to:
+  /// **'Delivery Time'**
+  String get delivery_time;
+
+  /// No description provided for @delivery_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Delivery Details'**
+  String get delivery_details;
+
+  /// No description provided for @order_history.
+  ///
+  /// In en, this message translates to:
+  /// **'Order History'**
+  String get order_history;
+
+  /// No description provided for @no_orders.
+  ///
+  /// In en, this message translates to:
+  /// **'No Orders yet'**
+  String get no_orders;
+
+  /// No description provided for @no_delivery.
+  ///
+  /// In en, this message translates to:
+  /// **'No Delivery is assigned to this order yet'**
+  String get no_delivery;
+
+  /// No description provided for @change_statues.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to change the order status ?'**
+  String get change_statues;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

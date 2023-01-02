@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1098440613337:android:d81783081d86af9cfb8dc8",
+        "mobilesdk_app_id": "1:1098440613337:android:39cd2ce58ae4ab96fb8dc8",
         "android_client_info": {
-          "package_name": "com.rmztech.delivery_app"
+          "package_name": "com.rmztech.brunchenProvider"
         }
       },
       "oauth_client": [
@@ -31,10 +31,54 @@
               "client_type": 3
             },
             {
-              "client_id": "1098440613337-q0gs2bhaqkd7kiqr4oek5m3mh90jqdmt.apps.googleusercontent.com",
+              "client_id": "1098440613337-1sgps7o1i4cudvat22l6kb8na3uatagc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.rmztech.heroMeals"
+                "bundle_id": "com.brunchen.brunchenApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098440613337:android:d81783081d86af9cfb8dc8",
+        "android_client_info": {
+          "package_name": "com.rmztech.delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098440613337-flak8d7kp0rnc77tdh4ia91fgiuqad47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmztech.delivery_app",
+            "certificate_hash": "acbf39e8ec4ea9682d1bb62ffcc9a5d548d0c83d"
+          }
+        },
+        {
+          "client_id": "1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAdfDg09H9jDskcrMDHAVgypolu3aNuJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098440613337-3k2j96nf4vb3vb9a0928o1o1o46rr9ne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1098440613337-1sgps7o1i4cudvat22l6kb8na3uatagc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.brunchen.brunchenApp"
               }
             }
           ]
@@ -75,10 +119,10 @@
               "client_type": 3
             },
             {
-              "client_id": "1098440613337-q0gs2bhaqkd7kiqr4oek5m3mh90jqdmt.apps.googleusercontent.com",
+              "client_id": "1098440613337-1sgps7o1i4cudvat22l6kb8na3uatagc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.rmztech.heroMeals"
+                "bundle_id": "com.brunchen.brunchenApp"
               }
             }
           ]

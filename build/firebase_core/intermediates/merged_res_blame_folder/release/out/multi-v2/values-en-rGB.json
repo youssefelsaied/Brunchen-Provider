@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/merged_res/release/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/merged_res/release/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/7b33c7b67b2e9c4c5baf47222dcaf480/transformed/jetified-play-services-basement-18.1.0/res/values-en-rGB/values.xml",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/7b33c7b67b2e9c4c5baf47222dcaf480/transformed/jetified-play-services-basement-18.1.0/res/values-en-rGB/values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/intermediates/merged_res/release/values-gu/values-gu.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/intermediates/merged_res/release/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-gu/values-gu.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/url_launcher_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/url_launcher_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-gu/values-gu.xml",

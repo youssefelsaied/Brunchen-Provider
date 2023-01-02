@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/merged_res/release/values-ko/values-ko.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-ko/values-ko.xml",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/firebase_core/intermediates/merged_res/release/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-ko/values-ko.xml",

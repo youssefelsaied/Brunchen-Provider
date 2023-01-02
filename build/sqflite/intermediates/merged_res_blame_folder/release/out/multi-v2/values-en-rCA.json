@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/sqflite/intermediates/merged_res/release/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/sqflite/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-en-rCA/values-en-rCA.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/youssef/StudioProjects/delivery_app/build/sqflite/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "/Users/youssef/StudioProjects/brunchen_provider/build/sqflite/intermediates/merged_res/release/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/youssef/.gradle/caches/transforms-3/b0970510dd7651a04d3a602e77873b60/transformed/core-1.6.0/res/values-en-rCA/values-en-rCA.xml",

@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:delivery_app/screens/history_screen.dart';
 import 'package:delivery_app/screens/language.dart';
 import 'package:delivery_app/screens/main_screen.dart';
 import 'package:delivery_app/screens/profile.dart';
@@ -122,6 +123,34 @@ class _AppDrawerState extends State<AppDrawer> {
                         width: width * .75,
                         child: AutoSizeText(
                           AppLocalizations.of(context)!.home,
+                          style: const TextStyle(
+                              fontSize: 20,
+                              fontFamily: "Poppins",
+                              color: Colors.black),
+                          textAlign: TextAlign.start,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    alignment:
+                        AppLocalizations.of(context)!.language == "Language"
+                            ? Alignment.centerLeft
+                            : Alignment.centerRight,
+                    width: width * .75,
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const HistoryScreen()),
+                        );
+                      },
+                      child: Container(
+                        width: width * .75,
+                        child: AutoSizeText(
+                          AppLocalizations.of(context)!.order_history,
                           style: const TextStyle(
                               fontSize: 20,
                               fontFamily: "Poppins",

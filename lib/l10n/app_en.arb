@@ -75,6 +75,7 @@
   "all_new_orders": "All Orders",
   "in_progress": "In progress",
   "ready": "Ready",
+  "on_the_way": "ON THE WAY",
   "delivered": "Delivered",
   "canceled": "Canceled",
   "home": "Home",
@@ -103,6 +104,15 @@
   "logout_text" : "Are you sure you want to Logout ?",
   "yes" : "Yes",
   "no" : "No",
-  "wrong_auth" : "User name or Password is incorrect"
+  "wrong_auth" : "User name or Password is incorrect",
+
+
+  "date" : "Date",
+  "delivery_time" : "Delivery Time",
+  "delivery_details" : "Delivery Details",
+  "order_history" : "Order History",
+  "no_orders" : "No Orders yet",
+  "no_delivery" : "No Delivery is assigned to this order yet",
+  "change_statues": "Are you sure you want to change the order status ?"
   
 }
